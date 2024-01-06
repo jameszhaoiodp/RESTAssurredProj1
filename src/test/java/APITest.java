@@ -38,7 +38,10 @@ public class APITest {
     void testSteps(){
         System.out.println("inside testSteps");
     }
-
+    @Test(priority = 5)
+    void testSteps2(){
+        System.out.println("inside testSteps");
+    }
     @Test(priority = 3)
     void tearDown(){
         System.out.println("inside tearDown");
